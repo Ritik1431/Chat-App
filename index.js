@@ -13,7 +13,7 @@ http.listen(PORT, () =>{
 })
 app.use(express.static(__dirname + '/public'))
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname + '/project.html')
+    res.sendFile(__dirname + '/index.html')
 })
 
 // Socket
